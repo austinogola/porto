@@ -1,6 +1,6 @@
-import React,{useContext,useState} from 'react'
+import React,{useContext} from 'react'
 import {ThemeContext} from './Navbar'
-import { FiExternalLink,FiFolder,FiGithub} from 'react-icons/fi'
+import { FiExternalLink,FiGithub} from 'react-icons/fi'
 import './Archive.css'
 import './Home.css'
 

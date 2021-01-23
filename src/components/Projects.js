@@ -1,11 +1,7 @@
 import React,{useContext} from 'react'
 import './Projects.css'
-import ProjectItem from './ProjectItem'
-import ProjItems from './ProjItems'
 import {ThemeContext} from './Navbar'
-import iii from '../images/circuit1.jpg'
 import Projo from './Projo'
-import {Link} from 'react-router-dom'
 
 function Projects(){
     const cts=useContext(ThemeContext)

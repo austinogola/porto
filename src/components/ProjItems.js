@@ -1,8 +1,5 @@
-import React,{useContext} from 'react'
+import React from 'react'
 import './ProjItems.css'
-import {ThemeContext} from './Navbar'
-import { FiExternalLink} from 'react-icons/fi'
-import { FaGithub} from 'react-icons/fa'
 
 function ProjItems(props){
     return(

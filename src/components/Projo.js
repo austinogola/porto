@@ -2,7 +2,6 @@ import React,{useContext} from 'react'
 import './Projo.css'
 import {ThemeContext} from './Navbar'
 import { FiExternalLink,FiFolder,FiGithub} from 'react-icons/fi'
-import { FaGithub} from 'react-icons/fa'
 
 function Projo(props){
     const cts=useContext(ThemeContext)
