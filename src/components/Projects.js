@@ -1,80 +1,48 @@
 import React,{useContext} from 'react'
 import './Projects.css'
 import ProjectItem from './ProjectItem'
+import ProjItems from './ProjItems'
 import {ThemeContext} from './Navbar'
+import iii from '../images/circuit1.jpg'
+import Projo from './Projo'
+import {Link} from 'react-router-dom'
 
 function Projects(){
     const cts=useContext(ThemeContext)
     return(
         <div className='container' style={{background:cts.darkBlue}}>
-            <h2 className='Title4' style={{ borderColor: cts.green, color: cts.whiteWhite }}>Projects Done</h2>
+            <h2 className='Title4' style={{ borderColor: cts.green, color: cts.whiteWhite }}>Some Things I Have Built</h2>
             <div className='row' style={{marginBottom:'32px'}}>
-                <ProjectItem 
-                    technologies={[
-                        { item: 'Javascript', pos: 1 }, 
-                        { item: 'React', pos: 2 } , 
-                        { item: 'Firebase', pos: 3 },
-                        { item: 'HTML/CSS', pos: 4 }
-                        
-                    ]}
-                    projectTitle="Reep" 
-                    projectDetails='A Basic Google keep clone'
+                <Projo projectTitle='Google Keep Clone' projectDetails='A simple Google Keep clone built with React and Node.'
+                projectTech={[{item:'React',pos:1},{item:'Node',pos:2},{item:'MySQL',pos:3}]}
                 />
 
-                <ProjectItem
-                    technologies={[
-                        {item:'Javascript',pos:1},
-                        {item:'React',pos:2},
-                        { item: 'HTML/CSS', pos: 3 },
-                        { item: 'Node/Express', pos: 4 }
-                    ]}
-                    projectTitle="FreshFoods"
-                    projectDetails='An interactive e-commerce site for groceries'
+                <Projo projectTitle='Website Templates' projectDetails='A collection of website templates I made for quick web development'
+                projectTech={[{item:'Javascript',pos:1},{item:'HTML/CSS',pos:2},{item:'Sass',pos:3}]}
                 />
 
-                <ProjectItem
-                    technologies={[
-                        {item:'Python',pos:1},
-                        {item:'Javascript',pos:2},
-                        {item:'Web Assembly',pos:3},
-                    ]}
-                    projectTitle="Oldies"
-                    projectDetails='A collection of simple classic games I cloned'
+                <Projo projectTitle='AnimateX' projectDetails='A CSS library for animating web components'
+                projectTech={[{item:'Javascript',pos:1},{item:'HTML/CSS',pos:2},{item:'Sass',pos:3},{item:'Jquery',pos:4}]}
                 />
 
-                <ProjectItem
-                    technologies={[
-                        { item: 'Javascript', pos: 1 },
-                        { item: 'HTML/CSS', pos: 2 },
-                        { item: 'Jquery', pos: 3 },
-                    ]}
-                    projectTitle="AnimateX"
-                    projectDetails='A library of reusable web animation components'
+                <Projo projectTitle='Browser Game Portal' projectDetails='A website containing a collection of my favourite simple video games that I cloned'
+                projectTech={[{item:'Javascript',pos:1},{item:'HTML/CSSS',pos:2},{item:'Javascript',pos:3}]}
                 />
 
-                <ProjectItem
-                    technologies={[
-                        { item: 'Javascript', pos: 1 },
-                        { item: 'Python', pos: 2 },
-                        { item: 'Jquery', pos: 3 },
-                        { item: 'VueJs', pos: 4 },
-                        { item: 'Node/Express', pos: 5 },
-                    ]}
-                    projectTitle="Templates"
-                    projectDetails='Collection of responsive web-design templates I created'
+                <Projo projectTitle="Divonn's Main Site" projectDetails='The landing page for Divonn'
+                projectTech={[{item:'Javascript',pos:1},{item:'React',pos:2},{item:'Node/Express',pos:3}]}
                 />
 
-                <ProjectItem
-                    technologies={[
-                        { item: 'Javascript', pos: 1 },
-                        { item: 'HTML/CSS', pos: 2 },
-                        { item: 'Jquery', pos: 3 },
-                        { item: 'React', pos: 4 },
-                    ]}
-                    projectTitle="Austine's 4"
-                    projectDetails='Third iteration of my personal website.'
+                <Projo projectTitle='Python Image Processing App' projectDetails='An app for editing images I built with python'
+                projectTech={[{item:'Python',pos:1},{item:'Pandas',pos:2},{item:'OpenCV',pos:3}]}
                 />
+
             </div>
+            <div className='d-flex justify-content-center'>
+                <a href='/archive' target='_blank'>
+                    <p style={{color:cts.green,fontFamily:'Cousine'}}>View whole archive</p>
+                </a>
+                </div>
         </div>
     )
 }

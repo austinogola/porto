@@ -1,0 +1,9 @@
+.Projo-mini{
+    transition: .2s;
+}
+
+.Projo-mini:hover{
+    /* position: relative;
+    bottom: 10px; */
+    transform: scale(1.04);
+}
