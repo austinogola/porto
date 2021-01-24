@@ -14,7 +14,7 @@ function Archive(){
                         <h1 className='Title display-4 display-sm-5 animated bounce' 
                         style={{color:cts.whiteDark}}>Archive.
                         </h1>
-                        <h5 className='nameIs'style={{color:cts.green}}>A big list of things I've programmed</h5>
+                        <h5 className='nameIs'style={{color:cts.green}}>A big selection of things I've programmed</h5>
                     </div>
 
                 </div>
@@ -27,27 +27,60 @@ function Archive(){
                         <div className="col-2"><h5 className='fixen'>Links</h5></div>
                     </div>
 
-                    <ArchiveList Year='2020' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2020' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2020' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2020' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2020' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2019' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2019' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2019' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2019' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2019' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2018' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2018' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2018' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2018' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2018' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2017' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2017' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2017' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2017' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2016' Title='Google Keep' Built="Python"/>
-                    <ArchiveList Year='2016' Title='Scheduling App' Built="Python   Tkinter"/>
+                    <ArchiveList Year='2020' Title='Google Keep Clone' 
+                    Built={[{item:'React',pos:1},{item:'MySQL',pos:2},{item:'Node/Express',pos:3}]}/>
+
+                    <ArchiveList Year='2020' Title='Divonn Site' 
+                    Built={[{item:'React',pos:1}]}/>
+
+                    <ArchiveList Year='2020' Title='Portfolio V4' Built={[{item:'React',pos:1}]} 
+                    gitHubLink="https://github.com/austinogola/porto" liveLink='https://austin-ogola.netlify.app/'/>
+                    
+                    <ArchiveList Year='2020' Title='Custom' 
+                    Built={[{item:'React',pos:1}]}/>
+
+                    <ArchiveList Year='2019' Title='Image Processor' 
+                    Built={[{item:'Python',pos:1},{item:'Tkinter',pos:2},{item:'OpenCV',pos:3},{item:'Pandas',pos:4}]}/>
+
+                    <ArchiveList Year='2019' Title='Custom' 
+                    Built={[{item:'React',pos:1}]}/>
+
+                    <ArchiveList Year='2019' Title='Portal' 
+                    Built={[{item:'React',pos:1}]}/>
+
+                    <ArchiveList Year='2019' Title='Animate' 
+                    Built={[{item:'React',pos:1}]}/>
+
+                    <ArchiveList Year='2019' Title='Custom' 
+                    Built={[{item:'React',pos:1}]}/>
+
+                    <ArchiveList Year='2018' Title='Portfolio V3' 
+                    Built={[{item:'React',pos:1}]}/>
+
+                    <ArchiveList Year='2018' Title='Killer Creative Site' 
+                    Built={[{item:'React',pos:1}]}  liveLink='https://www.killercreative.co.uk/'/>
+
+                    <ArchiveList Year='2018' Title='Templates' 
+                    Built={[{item:'React',pos:1}]}/>
+
+                    <ArchiveList Year='2018' Title='Titan Marines' 
+                    Built={[{item:'React',pos:1}]} liveLink='https://www.titan-marine.com/'/>
+
+                    <ArchiveList Year='2017' Title='Chownow Orders Site' 
+                    Built={[{item:'React',pos:1}]} liveLink='https://www.eat.chownow.com/'/>
+
+                    <ArchiveList Year='2017' Title='Portfolio V2' 
+                    Built={[{item:'React',pos:1}]}/>
+
+                    <ArchiveList Year='2016' Title='Scheduling App' Built={[{item:'React',pos:1}]}
+                    gitHubLink='https://github.com/austinogola/scheduling' liveLink=''/>    
+
+                    <ArchiveList Year='2017' Title='Student' 
+                    Built={[{item:'React',pos:1}]}/>
+
+                    <ArchiveList Year='2016' Title='Portfolio Site V1' 
+                    Built={[{item:'React',pos:1}]}/>
+
                 </div>
             </div>
         </div>
