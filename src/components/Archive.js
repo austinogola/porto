@@ -27,11 +27,11 @@ function Archive(){
                         <div className="col-2"><h5 className='fixen'>Links</h5></div>
                     </div>
 
-                    <ArchiveList Year='2020' Title='Google Keep Clone' 
-                    Built={[{item:'React',pos:1},{item:'MySQL',pos:2},{item:'Node/Express',pos:3}]}/>
+                    <ArchiveList Year='2020' Title='Google Keep Clone' Built={[{item:'React',pos:1},{item:'MySQL',pos:2},{item:'Node/Express',pos:3}]}
+                    gitHubLink='https://github.com/austinogola/keep200'/>
 
-                    <ArchiveList Year='2020' Title='Divonn Site' 
-                    Built={[{item:'React',pos:1}]}/>
+                    <ArchiveList Year='2020' Title='Divonn Site'Built={[{item:'React',pos:1}]}
+                    gitHubLink='https://github.com/austinogola/divonn'/>
 
                     <ArchiveList Year='2020' Title='Portfolio V4' Built={[{item:'React',pos:1}]} 
                     gitHubLink="https://github.com/austinogola/porto" liveLink='https://austin-ogola.netlify.app/'/>
@@ -39,8 +39,8 @@ function Archive(){
                     <ArchiveList Year='2020' Title='Custom' 
                     Built={[{item:'React',pos:1}]}/>
 
-                    <ArchiveList Year='2019' Title='Image Processor' 
-                    Built={[{item:'Python',pos:1},{item:'Tkinter',pos:2},{item:'OpenCV',pos:3},{item:'Pandas',pos:4}]}/>
+                    <ArchiveList Year='2019' Title='Image Processor' Built={[{item:'Python',pos:1},{item:'Tkinter',pos:2},{item:'Pandas',pos:4}]}
+                    gitHubLink="https://github.com/austinogola/paintjs"/>
 
                     <ArchiveList Year='2019' Title='Custom' 
                     Built={[{item:'React',pos:1}]}/>
@@ -69,14 +69,14 @@ function Archive(){
                     <ArchiveList Year='2017' Title='Chownow Orders Site' 
                     Built={[{item:'React',pos:1}]} liveLink='https://www.eat.chownow.com/'/>
 
-                    <ArchiveList Year='2017' Title='Portfolio V2' 
-                    Built={[{item:'React',pos:1}]}/>
+                    <ArchiveList Year='2017' Title='Portfolio V2' Built={[{item:'React',pos:1}]}
+                    gitHubLink='https://github.com/austinogola/version2'/>
 
                     <ArchiveList Year='2016' Title='Scheduling App' Built={[{item:'React',pos:1}]}
                     gitHubLink='https://github.com/austinogola/scheduling' liveLink=''/>    
 
-                    <ArchiveList Year='2017' Title='Student' 
-                    Built={[{item:'React',pos:1}]}/>
+                    <ArchiveList Year='2017' Title='Student Portal' Built={[{item:'React',pos:1}]}
+                    gitHubLink='https://github.com/austinogola/studentz2017'/>
 
                     <ArchiveList Year='2016' Title='Portfolio Site V1' 
                     Built={[{item:'React',pos:1}]}/>
