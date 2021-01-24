@@ -1,7 +1,6 @@
 import React,{useContext} from 'react'
 import './Projects.css'
 import {ThemeContext} from './Navbar'
-import {Link } from 'react-router-dom'
 import Projo from './Projo'
 
 function Projects(){
@@ -36,9 +35,9 @@ function Projects(){
 
             </div>
             <div className='d-flex justify-content-center'>
-                <Link to='/archive'>
+                <a href='https://austin-ogola-archive.netlify.app/' target='_blank' rel="noopener noreferrer">
                     <p style={{color:cts.green,fontFamily:'Cousine'}}>View whole archive</p>
-                </Link>
+                </a>
                 </div>
         </div>
     )
