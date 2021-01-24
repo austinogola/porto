@@ -3,7 +3,6 @@ import './Navbar.css'
 // import Toggle from './ThemeToggle'
 // import $ from 'jquery'
 // import Icon from './icons8-circuit2-96.png'
-import { Link } from 'react-scroll';
 
 //Create a new context
 export const ThemeContext = createContext()
@@ -82,21 +81,7 @@ function Navbar(){
 
             <div className='collapse navbar-collapse justify-content-end align-items-center p-0 m-0' id='everything2'>
                 <nav className='navbar-nav m-0 p-0 d-flex justify-content-center'>
-                    <Link activeClass='active' 
-                    spy={true} offset={-80} duration={620} to="home" className='nav-item nav-link' smooth={true} >Home
-                    </Link>
-
-                    <Link activeClass='active' 
-                    spy={true} offset={-80} duration={620} to="about" className='nav-item nav-link' smooth={true} >About
-                    </Link>
-                    
-                    <Link activeClass='active' 
-                    spy={true} offset={-80} duration={620} to="projects" className='nav-item nav-link' smooth={true} >Works/Projects
-                    </Link>
-
-                    <Link activeClass='active' 
-                    spy={true} offset={-80} duration={620} to="contact" className='nav-item nav-link' smooth={true} >Contacts
-                    </Link>
+                    <a href="https://austin-ogola.netlify.app/" className='nav-item nav-link'>Home</a>
                 </nav>
             </div>
         </nav>
