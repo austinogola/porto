@@ -13,7 +13,7 @@ function App() {
   const cts=useContext(ThemeContext)
   return (
     <Switch>
-      <Route path='/archive' component={Archive}/>
+      <Route exact path='/archive' component={Archive}/>
       <div className="App" style={{background:cts.darkBlue}}>
         <Navbar/>
         <div id="home"><Home/></div>

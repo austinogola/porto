@@ -1,6 +1,7 @@
 import React,{useContext} from 'react'
 import './Projects.css'
 import {ThemeContext} from './Navbar'
+import {Link } from 'react-router-dom'
 import Projo from './Projo'
 
 function Projects(){
@@ -35,9 +36,9 @@ function Projects(){
 
             </div>
             <div className='d-flex justify-content-center'>
-                <a href='/archive' target='_blank'>
+                <Link to='/archive'>
                     <p style={{color:cts.green,fontFamily:'Cousine'}}>View whole archive</p>
-                </a>
+                </Link>
                 </div>
         </div>
     )
