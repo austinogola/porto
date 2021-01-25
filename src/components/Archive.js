@@ -73,7 +73,7 @@ function Archive(){
                     gitHubLink='https://github.com/austinogola/version2'/>
 
                     <ArchiveList Year='2016' Title='Scheduling App' Built={[{item:'React',pos:1}]}
-                    gitHubLink='https://github.com/austinogola/scheduling' liveLink=''/>    
+                    gitHubLink='https://github.com/austinogola/scheduling' liveLink='https://austin-ogola-scheduling.netlify.app/'/>    
 
                     <ArchiveList Year='2017' Title='Student Portal' Built={[{item:'React',pos:1}]}
                     gitHubLink='https://github.com/austinogola/studentz2017'/>

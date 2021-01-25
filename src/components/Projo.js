@@ -13,13 +13,13 @@ function Projo(props){
                 <div className="Projo-mini-header row mb-3">
                     <div className="col-9"><FiFolder size='32px' color={cts.green}/></div>
                     <div className="col-1" >
-                        <FiGithub size="22px" style={{cursor:'pointer',color:cts.whiteDark}} 
-                        title='View code'/>
+                        <a href={props.gitHubLink} target='_blank'  rel="noopener noreferrer"><FiGithub size="22px" style={{cursor:'pointer',color:cts.whiteDark}} 
+                        title='View code'/></a>
                     </div>
 
                     <div className="col-1 ml-1" style={{position:'relative',bottom:'2px'}}>
-                        <FiExternalLink size="24px" style={{cursor:'pointer',color:cts.whiteDark}}
-                        title='Live site'/>
+                        <a href={props.liveLink} target='_blank'  rel="noopener noreferrer"><FiExternalLink size="24px" style={{cursor:'pointer',color:cts.whiteDark}}
+                        title='Live site'/></a>
                     </div>
                 </div>
 
